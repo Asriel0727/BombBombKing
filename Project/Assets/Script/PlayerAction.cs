@@ -30,27 +30,27 @@ public class PlayerAction : MonoBehaviour
 
         //if(Input.GetAxis("Horizontal")>0)
 
-        if (Input.GetKey(KeyCode.D) || Input.GetAxis("Horizontal") > 0) 
+        if (Input.GetKey(KeyCode.D)) 
         {
             velocity = new Vector2(speed1, 0);
             rb1.MovePosition(rb1.position + velocity * Time.fixedDeltaTime * stop);
             rb1.transform.localScale = new Vector3(-1, 1, 1);
             ChildrenChangedRight(rb1);
         }
-        if (Input.GetKey(KeyCode.A) || Input.GetAxis("Horizontal") < 0)
+        if (Input.GetKey(KeyCode.A))
         {
             velocity = new Vector2(-speed1, 0);
             rb1.MovePosition(rb1.position + velocity * Time.fixedDeltaTime * stop);
             rb1.transform.localScale = new Vector3(1, 1, 1);
             ChildrenChangedLeft(rb1);
         }
-        if (Input.GetKey(KeyCode.W) || Input.GetAxis("Vertical") > 0)
+        if (Input.GetKey(KeyCode.W))
         {
             velocity = new Vector2(0, speed1);
             rb1.MovePosition(rb1.position + velocity * Time.fixedDeltaTime * stop);
 
         }
-        if (Input.GetKey(KeyCode.S) || Input.GetAxis("Vertical") < 0)
+        if (Input.GetKey(KeyCode.S))
         {
             velocity = new Vector2(0, -speed1);
             rb1.MovePosition(rb1.position + velocity * Time.fixedDeltaTime * stop);
@@ -58,14 +58,14 @@ public class PlayerAction : MonoBehaviour
         }
 
 
-        if (Input.GetKey(KeyCode.RightArrow) || Input.GetAxis("Horizontal2") > 0)
+        if (Input.GetKey(KeyCode.RightArrow))
         {
             velocity = new Vector2(speed2, 0);
             rb2.MovePosition(rb2.position + velocity * Time.fixedDeltaTime * stop);
             rb2.transform.localScale = new Vector3(-1, 1, 1);
             ChildrenChangedRight(rb2);
         }
-        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetAxis("Horizontal2") < 0)
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
             velocity = new Vector2(-speed2, 0);
             rb2.MovePosition(rb2.position + velocity * Time.fixedDeltaTime * stop);
@@ -74,12 +74,12 @@ public class PlayerAction : MonoBehaviour
 
 
         }
-        if (Input.GetKey(KeyCode.UpArrow) || Input.GetAxis("Vertical2") > 0)
+        if (Input.GetKey(KeyCode.UpArrow))
         {
             velocity = new Vector2(0, speed2);
             rb2.MovePosition(rb2.position + velocity * Time.fixedDeltaTime * stop);
         }
-        if (Input.GetKey(KeyCode.DownArrow) || Input.GetAxis("Vertical2") < 0)
+        if (Input.GetKey(KeyCode.DownArrow))
         {
             velocity = new Vector2(0, -speed2);
             rb2.MovePosition(rb2.position + velocity * Time.fixedDeltaTime * stop);

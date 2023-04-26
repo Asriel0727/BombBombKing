@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 63
+  controlID: 118
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 100
+  controlID: 97
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,8 +165,8 @@ MonoBehaviour:
     y: 0
     width: 819.2
     height: 312.8
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -192,8 +192,8 @@ MonoBehaviour:
     y: 312.8
     width: 819.2
     height: 410
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 69
+  controlID: 22
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -245,8 +245,8 @@ MonoBehaviour:
     y: 0
     width: 455.99994
     height: 323.2
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -420,9 +420,9 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 67.5, y: -206}
+      snapOffset: {x: 67.5, y: 86}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 2
+      snapCorner: 0
       id: Orientation
       index: 0
       layout: 4
@@ -854,10 +854,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 86.79999}
-      m_SelectedIDs: 621c0200
-      m_LastClickedID: 138338
-      m_ExpandedIDs: 5cb0ffffdab2ffff30b3ffff4cb4ffff6eb4ffff74b4ffff7ab4ffff80b4ffff88b4ffff8cb4fffff2b7ffff28cfffff7acfffff82cfffff8ccfffff90cfffff94cfffff98cfffff9ccfffffa0cfffff90d0ffffe2d0ffffead0fffff4d0fffff8d0fffffcd0ffff00d1ffff04d1ffff08d1ffff10d2ffff60d2ffff68d2ffff72d2ffff76d2ffff7ad2ffff7ed2ffff82d2ffff86d2ffff64d3ffffdad5ffff2ad6ffff32d6ffff3cd6ffff40d6ffff44d6ffff48d6ffff4cd6ffff50d6ffff9ad9ffffead9ffff06dbffff28dbffff2edbffff34dbffff3adbffff3edbffff4adbffff58e2ffff7ce4ffffe6e6ffffb0e9fffff4ecffff46edffff62eeffff84eeffff8aeeffff90eeffff96eeffff9eeeffffa2eeffff26f3ffff76f3ffff7ef3ffff88f3ffff8cf3ffff90f3ffff94f3ffff98f3ffff9cf3ffff50f8ffffa2f8ffffbef9ffffe0f9ffffe6f9ffffecf9fffff2f9fffffaf9fffffef9ffff38fbffff9c720000be72000006730000148a00006a8a0000b28a00005ca2000050a40000aeb60000bec90000c8c90000d8c90000e0c90000f8c9000024ca000030ca000038ca000044ca00004cca000068ca00007cca000090ca000098ca0000acca0000fce20000dafb00002afc0000880e0100201201001014020060140200
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 50faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -930,14 +930,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Script
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\dev\DS\Prototype\BombBombKing
+  m_LastProjectPath: D:\GitHub\BombBombKing\Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 41.400024}
-    m_SelectedIDs: 8e5b0000
-    m_LastClickedID: 23438
-    m_ExpandedIDs: 00000000765b0000885b0000945b000000ca9a3bffffff7f
+    m_SelectedIDs: 76650000
+    m_LastClickedID: 25974
+    m_ExpandedIDs: 000000006665000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -965,7 +965,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000765b0000
+    m_ExpandedIDs: 0000000066650000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1017,7 +1017,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 263.2}
+    m_ScrollPosition: {x: 0, y: 240}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 50

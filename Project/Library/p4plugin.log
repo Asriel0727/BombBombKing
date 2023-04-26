@@ -195,3 +195,10 @@ p1:-1 0 Submitting change 239176.
 p1:-1 0 Locking 1 files ...
 p1:-1 0 edit //DS/DS_Main/Prototype/BombBombKing/ProjectSettings/InputManager.asset#6
 p1:-1 0 Change 239176 submitted.
+Error: Unicode server permits only unicode enabled clients.
+
+Path 'D:/GitHub/BombBombKing/Project\testForProjectRootMapping' is not under client's root 'D:\dev\DS'.
+
+Error: Path 'D:/GitHub/BombBombKing/Project\testForProjectRootMapping' is not under client's root 'D:\dev\DS'.
+
+e32:Path 'D:/GitHub/BombBombKing/Project\\testForProjectRootMapping' is not under client's root 'D:\\dev\\DS'.\n
