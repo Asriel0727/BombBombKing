@@ -1,4 +1,3 @@
 # Unity 協作練習製作爆爆王
-使用協作軟體P4V (Perforce)
+使用協作軟體P4V (Perforce)  
 [Demo網址](https://asriel0727.github.io/BombBombKing/)
- 
