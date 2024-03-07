@@ -8,15 +8,17 @@
 
 ## 資料來源
 - **美術素材**
-  - 
-  - 
+  - [Kenney](https://kenney.nl/assets)
+  - [CraftPix](https://craftpix.net/freebies/)
+  - [Game Art 2D](https://www.gameart2d.com/)
+  - [Unity Assests](https://assetstore.unity.com/?q=free&orderBy=1)
 - **音樂特效**
   - [小森平的免費下載音效](https://taira-komori.jpn.org/freesoundtw.html)
   - [站長素材](https://sc.chinaz.com/yinxiao/)
 ## 協作工具
 - Perforce
 ## 專案狀態
-**未來規劃**
- - [ ] 破壞障礙物隨機生成道具
-**目前問題**  
- - [ ] 可能會有按鍵衝突問題
+- **未來規劃**
+  - [ ] 破壞障礙物隨機生成道具  
+- **目前問題**  
+  - [ ] 可能會有按鍵衝突問題
