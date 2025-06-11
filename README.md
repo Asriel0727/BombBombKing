@@ -1,4 +1,11 @@
 # 仿爆爆王製作2D小遊戲 - 抱爆亡
+
+<div align="center">
+
+| [繁體中文](README.md) | [English](README_en-us.md) | 
+
+</div>
+
 ## 專案介紹
 1. **遊戲內容**
    - 單機多人遊玩
