@@ -55,6 +55,9 @@
 
 ---
 
+## **CI/CD**
+- GitHub Action
+
 ## **Project Status**
 
 ### Future Plans
